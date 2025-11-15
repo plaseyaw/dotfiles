@@ -22,3 +22,9 @@ zoxide init fish | source
 ## PATH Management using fish_add_user_paths (no duplicates)
 # This is the proper fish way - it automatically deduplicates
 fish_add_path ~/.local/bin ~/.config/hyde/scripts ~/.local/lib/hyde ~/.local/share/waybar/scripts ~/.config/waybar/scripts ~/Applications/depot_tools
+
+# Start SSH agent if not already running
+if not set -q SSH_AUTH_SOCK
+    eval (ssh-agent -c)
+    ssh-add ~/.ssh/git >/dev/null
+end
