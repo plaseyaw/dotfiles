@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 
 let
-  dotfiles = "${config.home.homeDirectory}/dotfiles"
-in 
+  dotfiles = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles";
+in
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -41,7 +41,7 @@ in
     
 
 
-  programs.fish.enable = true;
+  # programs.fish.enable = true;
   programs.starship.enable = true;
   programs.git = {
       enable = true;
