@@ -1,9 +1,0 @@
-2025/11/15-06:01:19.751 10ba3 Reusing MANIFEST /home/zer0/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/11/15-06:01:19.982 10ba3 Recovering log #8
-2025/11/15-06:01:20.305 10ba3 Reusing old log /home/zer0/.config/vesktop/sessionData/Local Storage/leveldb/000008.log 
-2025/11/15-06:03:27.662 10ba2 Level-0 table #12: started
-2025/11/15-06:03:27.749 10ba2 Level-0 table #12: 40310 bytes OK
-2025/11/15-06:03:27.902 10ba2 Delete type=0 #8
-2025/11/15-06:26:21.628 10ba2 Level-0 table #14: started
-2025/11/15-06:26:21.698 10ba2 Level-0 table #14: 36590 bytes OK
-2025/11/15-06:26:21.788 10ba2 Delete type=0 #11
